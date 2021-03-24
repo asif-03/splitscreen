@@ -1,0 +1,67 @@
+
+html {
+  box-sizing: border-box;
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: inherit;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: var(--tap-highlight-color);
+  outline: none;
+}
+
+
+.screen {
+  padding-top: 50px;
+ padding-left: 50px;
+ margin: 20px;
+ height: 90%;
+ width: 45%; 
+ border-style: solid;
+ 
+ float: left;
+
+}
+#rightscreen {
+ 
+  
+}
+#leftscreen {
+  background-color: rgb(28, 134, 184);
+}
+
+
+  
+.code {
+ height: 5vh;
+  width: 90%;
+  
+}
+.myButton {
+  margin: 10px;
+  height: 4vh;
+  width: 15%;
+  background-color: rgb(206, 68, 68);
+}
+.output {
+  
+   height: 70vh;
+  width: 90%;
+  
+}
+.show {
+  background-color: indigo;
+  height: 7vh;
+  width: 25%;
+}
+.header {
+  color: rgb(206, 68, 68);
+}
+

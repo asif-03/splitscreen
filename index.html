@@ -1,0 +1,45 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Asif Ali</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="savedata.js"></script>
+</head>
+
+<body>
+
+  <div class="screen" id="leftscreen">
+    <form name="codehere" id="myform">
+      <label for="yourname">Enter your name :</label><br>
+      <input type="text" id="yourname" class="input"><br><br>
+      <label for="age">Enter your age :</label><br>
+      <input type="number" id="age" class="input"><br><br>
+      <label for="phone">Enter your phone number :</label><br>
+      <input type="number" id="phone" class="input"><br><br>
+      <input type="button" id="save" value="Submit" class="myButton" onclick="submitClickHandler()">
+      <input type="button" value="Save Records" class="myButton" onclick="saveRecords()">
+      <input type="button" value="Delete Records" class="myButton" onclick="deleteRecords()">
+
+    </form>
+  </div>
+  <div class="screen" id="rightscreen">
+    <div class="output">
+
+      <h1 class="header">
+        <center>Output will appear here...</center>
+      </h1><br><br>
+      <p id="saved"></p>
+
+
+    </div>
+  </div>
+
+
+
+
+</body>
+
+</html>
